@@ -18,7 +18,3 @@ for link in soup.find_all("audio"):
     f.write("\n")
 f.close()
 os.system("wget.exe -i links.txt")
-# if platform == "win32":
-#     os.system("cls")
-# else:
-#     os.system("clear")
