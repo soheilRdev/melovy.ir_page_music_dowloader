@@ -17,4 +17,4 @@ for link in soup.find_all("audio"):
     f.write(data)
     f.write("\n")
 f.close()
-os.system("wget.exe -i links.txt")
+os.system("wget -i links.txt")
