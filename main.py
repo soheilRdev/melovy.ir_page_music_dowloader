@@ -1,6 +1,5 @@
 import requests
 import os
-from sys import platform
 from bs4 import BeautifulSoup
 
 get_link = input("Please enter your link from melovy.ir:\n ")
